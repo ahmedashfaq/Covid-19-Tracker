@@ -1,0 +1,738 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header img{
+    width: 100%;
+    height: 100vh;
+}
+
+header nav{
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 1;
+}
+
+header .navbar-brand{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.navbar-nav a{
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: white !important;
+}
+
+.navbar-nav a:last-child{
+    margin-right: 20px;
+}
+
+.navbar-nav a:hover{
+    transition: .5s ease-in-out;
+    background-color: whitesmoke;
+    color: black !important;
+}
+
+footer .copyright{
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: sans-serif;
+    height: 50px;
+}
+
+footer .copyright p{
+    padding-top: 12px;
+}
+
+
+footer .link-section{
+    height:300px;
+    background-color: rgb(201, 226, 236);
+}
+
+footer .inner-section{
+    padding-top: 50px;
+}
+
+footer .inner-section p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -30px;
+}
+
+footer .inner-section p::before{
+    content: "";
+    width: 250px;
+    height: 2px;
+    color: black;
+    position: absolute;
+    top: 35px;
+    left: -30px;
+    background-color: black;
+    margin-bottom: 30px;
+    
+}
+
+footer ul{
+    list-style-type: none;
+    padding-top: 10px;
+    margin-left: -20px;
+}
+
+
+footer a{
+    text-decoration: none !important;
+}
+
+
+footer .icons{
+    margin-left:-25px;
+    padding-top: 5px;
+}
+
+footer .icons i{
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.fa-facebook-square{
+    color: rgb(14, 112, 224);
+}
+
+.fa-twitter-square{
+    color: rgb(88, 176, 228);
+}
+
+.fa-rss-square{
+    color: orange;
+}
+
+.fa-youtube-play{
+    color: orangered;
+}
+
+footer i:hover{
+    transition: .5s ease-in-out;
+    opacity: 0.6;
+}
+
+footer .news-box{
+    margin-left:-25px;
+    padding-top: 5px;
+}
+
+footer input{
+    border: none;
+    width: 230px;
+    height: 35px;
+    padding: 10px;
+}
+
+footer input::placeholder{
+    padding: 5px;
+}
+
+footer .news-box a{
+    text-decoration: none !important;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+footer .news-box i{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+
+
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to bottom, #0394f0, #00a5f5, #00b4f6, #00c2f4, #00d0f1, #00cee4, #16ccd7, #2ac9ca, #22b8b4, #1ca79e, #16968a, #118576);
+    
+}
+
+
+::selection{
+    
+   background-color: lightskyblue;
+   color: whitesmoke;
+}
+
+.to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+    background-color: black;
+    padding: 10px;
+    z-index: 1;
+}
+
+.to-top i{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+
+.SYMPTOMS-section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.sym-heading{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.sym-heading span{
+    color: lightskyblue;
+}
+
+.sym-para{
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.sym-img img:first-child{
+
+    margin-left: 60px;
+}
+
+
+.pre-section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.parallax{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+
+.parallax-slide{
+    height: 30vw;
+    background: url('images/parallax.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+
+.theme{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 30vw;
+}
+
+.parallax-slide .tag-line{
+    padding-top: 5%;
+    margin: auto;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+
+.table-section{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    overflow-x: hidden;
+}
+
+.background-link{
+    height: 30vw;
+    background: url('images/virus-background.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.search-function input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid skyblue;
+    margin-bottom: 20px;
+}
+
+.search-function input::placeholder{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+.news-sec1{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.news-sec1 .box{
+    margin-left: 1% !important;
+}
+
+.news-sec1 h1{
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.news-sec1 h1 span{
+    color: skyblue;
+    
+}
+
+.contact-sec{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.contact-sec input{
+    padding: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid skyblue !important;
+
+}
+
+.contact-sec input:focus{
+    transition: .25s ease-in-out;
+    opacity: .8;
+    border-bottom: 2px solid gray !important;
+}
+
+.contact-sec input::placeholder{
+    font-size: 15px;
+}
+
+.contact-sec button{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid lightskyblue;
+    background-color: lightskyblue;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.contact-sec button:hover{
+    transition: .5s ease-in-out;
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid lightskyblue;
+    opacity: .8;
+}
+
+.contact-sec h3{
+    color: skyblue;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.contact-sec h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    padding-bottom: 60px;
+}
+
+
+
+.faq-sec{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.faq-sec h3{
+    color: skyblue;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.faq-sec h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    padding-bottom: 60px;
+}
+
+
+.accordion {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+  .accordion-item {
+    background-color: #fff;
+    color: #111;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+    background-color: whitesmoke;
+}
+  .accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    background-color: skyblue;
+}
+  .accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+}
+  .accordion-item-header.active::after {
+    content: "\2212";
+}
+  .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+  .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+  
+
+.blog-section{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+
+.blog-section p{
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.blog-section ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.blog-section li{
+    display: inline-block;
+    font-size: 30px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.blog-section .line::before{
+    content: "";
+    position: absolute;
+    top:1050;
+    left: 15px;
+    background: orange;
+    width: 730px;
+    height: 1px;
+}
+
+.blog-section .blog-part{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 1024px){
+    .navbar-brand{
+        margin-left: -1px !important;
+    }
+
+    .navbar-nav .nav-item:last-child{
+        margin-right: 40px !important;
+    }
+
+    header img{
+        margin-top: 90px !important;
+    }
+
+    .inner-section{
+        margin-left: 50px !important;
+    }
+
+    .parallax-slide{
+        height: 30vw;
+        background: url('images/parallax.png');
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
+    }
+
+    .theme{
+        width: 100% !important;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .parallax-slide .tag-line{
+        padding-top: 0% !important;
+        font-size: 50px;
+        margin-top: 50px;
+        margin-left: 400px;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: whitesmoke;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .background-link{
+        height: 40vw;
+        width:100%;
+        background: url('images/virus-background.jpg');
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        overflow-y: hidden !important;
+    }
+
+    .theme{
+        height: 100vh;
+        width: 100vh;
+        overflow-y: hidden !important;
+    }
+
+    .blog-section .line::before{
+        content: "";
+        position: absolute;
+        top:1050;
+        left: 15px;
+        background: orange;
+        width: 600px;
+        height: 1px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px){
+
+    .inner-section{
+        margin-left: -.5px !important;
+        margin-left: 25px !important;
+    }
+
+    footer .inner-section p::before{
+        content: "";
+        width: 200px;
+        height: 2px;
+        color: black;
+        position: absolute;
+        top: 35px;
+        left: -30px;
+        background-color: black;
+        margin-bottom: 30px;
+        
+    }
+
+    .parallax-slide .tag-line{
+        padding-top: 0% !important;
+        font-size: 50px;
+        margin-top: 50px;
+        margin-left: 250px;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: whitesmoke;
+    }
+
+    .background-link{
+        height: 40vw;
+        background: url('images/virus-background.jpg');
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    .theme{
+        height: 100vh;
+        width: 100% !important;
+    }
+
+    .blog-section .line::before{
+        content: "";
+        position: absolute;
+        top:1050;
+        left: 15px;
+        background: orange;
+        width: 450px;
+        height: 1px;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+
+    .link-section{
+        height: 500px !important;
+    }
+
+    footer .copyright p{
+        padding-top: 0px !important;
+    }
+
+    footer .copyright{
+        padding-top: 0px !important;
+    }
+
+    .sym-img img:first-child{
+        z-index: 0;
+        margin-left: 5px;
+    }
+
+    .parallax-slide{
+        width: 100%;
+        height: 30vw !important;
+        background: url('images/parallax.png');
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow-x: hidden !important;
+    }
+
+    .theme{
+        overflow-y: hidden;
+        overflow-x: hidden;
+        width: 100% !important;
+    }
+
+    .parallax-slide .tag-line{
+        padding-top: 0% !important;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 150px;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: whitesmoke;
+    }
+
+    .background-link{
+        height: 300px;
+        background: url('images/virus-background.jpg');
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .theme{
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 100% !important;
+    }
+
+
+    .blog-section .line::before{
+        content: "";
+        position: absolute;
+        top:1050;
+        left: 15px;
+        background: orange;
+        width: 340px;
+        height: 1px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 320px){
+    .blog-section .line::before{
+        content: "";
+        position: absolute;
+        top:1050;
+        left: 15px;
+        background: orange;
+        width: 290px;
+        height: 1px;
+    }
+
+    .parallax-slide .tag-line{
+        padding-top: 0% !important;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 120px;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: whitesmoke;
+    }
+    .theme{
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}
+
+
+@media screen and (max-width: 414px){
+    .sym-img{
+        margin-left: -110px;
+    }
+
+    .theme{
+        width: 100% !important;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .parallax-slide .tag-line{
+        padding-top: 0% !important;
+        font-size: 30px;
+        margin-left: 130px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: whitesmoke;
+    }
+
+    .link-section{
+        height: 500px !important;
+    }
+
+    .blog-section .line::before{
+        content: "";
+        position: absolute;
+        top:1050;
+        left: 15px;
+        background: orange;
+        width: 380px;
+        height: 1px;
+    }
+}
